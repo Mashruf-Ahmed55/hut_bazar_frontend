@@ -1,4 +1,3 @@
-import Navbar from '@/components/navabr/Navbar';
 import type { Metadata } from 'next';
 import { Plus_Jakarta_Sans } from 'next/font/google';
 import './globals.css';
@@ -20,7 +19,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={` ${plusJakartaSans.className} antialiased`}>
-        <Navbar />
         {children}
       </body>
     </html>
