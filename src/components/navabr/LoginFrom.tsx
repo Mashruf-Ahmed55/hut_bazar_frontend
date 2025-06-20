@@ -38,8 +38,8 @@ export function LoginForm({
           Enter your email below to login to your account
         </p>
       </div>
-      <div className="grid gap-6">
-        <div className="grid gap-3">
+      <div className="grid gap-4">
+        <div className="grid gap-2">
           <Label htmlFor="email">Email</Label>
           <Input
             {...register('email', { required: true })}
@@ -51,7 +51,7 @@ export function LoginForm({
             <span className="text-red-500 text-xs">Email is required</span>
           )}
         </div>
-        <div className="grid gap-3">
+        <div className="grid gap-2">
           <div className="flex items-center">
             <Label htmlFor="password">Password</Label>
             <Link
