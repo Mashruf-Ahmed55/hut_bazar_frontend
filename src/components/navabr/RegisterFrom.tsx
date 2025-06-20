@@ -270,6 +270,3 @@ export function RegisterFrom({
     </form>
   );
 }
-function watch(arg0: string) {
-  throw new Error('Function not implemented.');
-}
